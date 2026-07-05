@@ -803,6 +803,8 @@ grid-template-columns:1.1fr .9fr;
 align-items:center;
 gap:60px;
 min-height:100vh;
+position: relative;
+z-index: 5;
 }
 .hero-right img{
     width:100%;
@@ -867,4 +869,68 @@ margin:0;
     font-size:14px;
     color:#444;
     text-decoration:none;
+}
+/* REVISI RESPONSIVE UNTUK LOGISTIC BANNER */
+@media (max-width: 768px) {
+    .logistic-banner {
+        height: 300px; /* Sesuaikan tinggi untuk HP */
+        object-position: 35% center; /* Fokus ke area kapal & truk */
+    }
+}
+
+/* ==========================================
+   MOBILE RESPONSIVENESS (HERO & GENERAL)
+========================================== */
+@media (max-width: 992px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        padding-top: 150px;
+        text-align: center;
+        gap: 30px;
+    }
+    .hero h1 {
+        font-size: 50px;
+    }
+    .hero p {
+        margin: 0 auto 30px;
+    }
+    .hero-feature {
+        justify-content: center;
+    }
+    .hero-buttons {
+        justify-content: center;
+    }
+    .hero-right img {
+        max-width: 80%;
+    }
+    nav ul {
+        display: none; /* Hide for mobile simplicity or add a hamburger menu separately */
+    }
+    .header-right .btn-contact {
+        padding: 10px 20px;
+    }
+    .topbar {
+        display: none; /* Hide topbar on mobile to save space */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero-feature {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .hero-feature h3 {
+        font-size: 32px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
 }
