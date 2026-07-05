@@ -56,13 +56,15 @@ body{
 =========================== */
 header{
 position:fixed;
-top:0;
+top:42px;
 left:0;
 width:100%;
 padding:20px 0;
 transition:.4s;
 z-index:9999;
 background:transparent;
+background:rgba(7,20,40,.75);
+    backdrop-filter:blur(15px);
 }
 header.sticky{
 background:rgba(255,255,255,.95);
@@ -157,7 +159,7 @@ nav a:hover{
 .hero{
     min-height:100vh;
     padding-top:120px;
-    background:url(images/truck.jpg) center center/cover no-repeat;
+    background:url(images/hero-truck.webp) center center/cover no-repeat;
     display:flex;
     align-items:center;
     position:relative;
@@ -836,4 +838,33 @@ margin-bottom:6px;
 font-size:15px;
 color:rgba(255,255,255,.75);
 margin:0;
+}
+/* TOPBAR */
+.topbar{
+    background:#fff;
+    height:42px;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #eee;
+}
+
+.topbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+}
+
+.top-left,
+.top-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.topbar span,
+.topbar a{
+    font-size:14px;
+    color:#444;
+    text-decoration:none;
 }
