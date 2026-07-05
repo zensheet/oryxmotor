@@ -1,0 +1,141 @@
+PT ORYX MOTOR CORPORINDO
+Automotive Spare Parts | Truck & Bus
+
+Address: Komplek Pergudangan, Sentra Industri Terpadu 1-2, Jl. Pantai Indah Selatan No.07 Blok H2, RT.4/RW.3, Kamal Muara, Kecamatan Penjaringan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14470
+Phone: (021) 38769090
+
+
+
+oryx-motor/
+├── app/
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Categories.tsx
+│   ├── Products.tsx
+│   ├── Industries.tsx
+│   ├── WhyChoose.tsx
+│   ├── CTA.tsx
+│   └── Footer.tsx
+├── public/
+│   ├── images/
+│   └── icons/
+└── ...
+
+✔ Hero Section
+Full Screen
+Background Video/Image
+Dark Overlay
+Sticky Navbar
+Mega Menu
+CTA Button
+Scroll Indicator
+
+✔ About Company
+2 Column
+Animated Counter
+
+✔ Product Categories
+6 Premium Cards
+Hover Animation
+
+✔ Featured Products
+Modern Product Card
+Hover
+
+✔ Why Choose Us
+Icon Box
+Glass Effect
+
+✔ Industries
+Modern Layout
+
+✔ Statistics
+Animated Counter
+
+✔ Testimonials
+Professional Card
+
+✔ CTA
+Premium Banner
+
+✔ Footer
+4 Column
+Google Map
+Contact
+Newsletter
+
+Design Style
+Mirip gabungan
+Bosch
+SKF
+Volvo Trucks
+Isuzu Parts
+Mercedes-Benz Trucks
+Hino Global
+bukan template bootstrap biasa.
+
+Fitur
+✔ Responsive 100%
+✔ Sticky Navbar
+✔ Smooth Scroll
+✔ Hover Animation
+✔ Scroll Animation
+✔ Glassmorphism
+✔ Gradient
+✔ Premium Shadow
+✔ Mobile Menu
+✔ Search Box
+✔ Back To Top
+✔ Loading Animation
+✔ SEO Friendly
+
+Next.js 15
+Tailwind CSS 4
+Framer Motion
+Lucide React
+Responsive
+SEO Ready
+
+app/page.tsx
+components/Navbar.tsx
+components/Hero.tsx
+components/About.tsx
+components/Categories.tsx
+components/FeaturedProducts.tsx
+components/WhyChooseUs.tsx
+components/Industries.tsx
+components/CTA.tsx
+components/Footer.tsx
+Styling dan animasi
+Responsive & SEO
+
+Agar tampilannya lebih premium, saya sarankan:
+
+Navbar dibuat glassmorphism (blur transparan).
+Hero menggunakan video background, bukan gambar.
+Semua section diberi animasi reveal.
+Card memakai gradient border.
+Ada floating social button.
+Ada Back to Top.
+Ada preloader.
+Ada custom cursor (desktop).
+Ada scroll progress bar.
+Semua icon menggunakan Font Awesome atau Phosphor Icons.
+Produk dibuat seperti katalog corporate, bukan card Bootstrap
+
+kasih sy foto == oryx website, sy butuh list gambar2 ini == Ini list yang kamu punya:
+
+hero-truck.jpg
+warehouse.jpg
+product-showcase.jpg
+logistics.jpg
+mining.jpg
+construction.jpg
+engine-parts.jpg
+brake-system.jpg
+filters.jpg
+suspension.jpg
+electrical.jpg
+body-parts.jpg
